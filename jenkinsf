@@ -1,13 +1,11 @@
 pipeline 
 {
 agent any
-
    Stages
     {
           stage('Print a massege')
           {
             steps {echo "hello jenkins"}
           }
-
      }
 }
