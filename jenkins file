@@ -1,0 +1,12 @@
+pipeline 
+{
+
+    Stages
+    {
+          stage('Print a massege')
+          {
+            steps {echo "hello jenkins"}
+          }
+
+     }
+}
