@@ -7,5 +7,13 @@ agent any
           {
             steps {echo "hello jenkins"}
           }
+          stage('print a massege')
+          {
+            steps {echo "lo......ollll"}
+          }
+          stage('print a massege')
+          {
+            stapes {echo 'helllo..............'}
+          }
      }
 }
