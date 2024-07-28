@@ -13,7 +13,7 @@ agent any
           }
           stage('print a 3rd massege')
           {
-            stapes {echo 'helllo..............'}
+            steps {echo 'helllo..............'}
           }
      }
 }
